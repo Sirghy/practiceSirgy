@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestRefactoring/1.0.0": {
+        "dependencies": {
+          "DotLiquid": "2.3.197"
+        },
+        "runtime": {
+          "TestRefactoring.dll": {}
+        }
+      },
+      "DotLiquid/2.3.197": {
+        "runtime": {
+          "lib/net6.0/DotLiquid.dll": {
+            "assemblyVersion": "2.3.197.0",
+            "fileVersion": "2.3.197.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestRefactoring/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotLiquid/2.3.197": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QaJHansb139SUSPTle0i81RyCi608kWFFH4HzDEz8c9JCqJ0rXM6cjqPXTLSQNtlNgFDZ8gSsgxwFMB93P669Q==",
+      "path": "dotliquid/2.3.197",
+      "hashPath": "dotliquid.2.3.197.nupkg.sha512"
+    }
+  }
+}

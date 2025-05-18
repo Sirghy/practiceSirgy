@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DotLiquid/2.3.197": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net6.0/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotLiquid/2.3.197": {
+      "sha512": "QaJHansb139SUSPTle0i81RyCi608kWFFH4HzDEz8c9JCqJ0rXM6cjqPXTLSQNtlNgFDZ8gSsgxwFMB93P669Q==",
+      "type": "package",
+      "path": "dotliquid/2.3.197",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotliquid.2.3.197.nupkg.sha512",
+        "dotliquid.nuspec",
+        "images/logo_nuget.png",
+        "lib/net45/DotLiquid.dll",
+        "lib/net45/DotLiquid.xml",
+        "lib/net45/it/DotLiquid.resources.dll",
+        "lib/net6.0/DotLiquid.dll",
+        "lib/net6.0/DotLiquid.xml",
+        "lib/net6.0/it/DotLiquid.resources.dll",
+        "lib/netstandard1.3/DotLiquid.dll",
+        "lib/netstandard1.3/DotLiquid.xml",
+        "lib/netstandard1.3/it/DotLiquid.resources.dll",
+        "lib/netstandard2.0/DotLiquid.dll",
+        "lib/netstandard2.0/DotLiquid.xml",
+        "lib/netstandard2.0/it/DotLiquid.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DotLiquid >= 2.3.197"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\serjPractice\\RefactoringTask\\TestRefactoring\\TestRefactoring\\TestRefactoring.csproj",
+      "projectName": "TestRefactoring",
+      "projectPath": "D:\\Projects\\serjPractice\\RefactoringTask\\TestRefactoring\\TestRefactoring\\TestRefactoring.csproj",
+      "packagesPath": "C:\\Users\\GS\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\serjPractice\\RefactoringTask\\TestRefactoring\\TestRefactoring\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\GS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "DotLiquid": {
+            "target": "Package",
+            "version": "[2.3.197, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
