@@ -1,0 +1,3 @@
+magic methods and ststic contexct
+starts:  3:55:40
+end: 4: 40 :45
